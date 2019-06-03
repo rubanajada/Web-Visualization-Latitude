@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootcamp Visualization</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+ <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+            <h1><span class="badge badge-info"><b>Latitude</b></span>
+            <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+                </nav>
+            </div>
+            <div class="col-sm">
+            </div>
+            <div class="col-sm">
+
+            </div>
+
+            <div class="col-sm">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <div class="btn-group">
+                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                       Plots
+                            </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                                    <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                                </div>
+                        </div>
+                    </li>
+                      <li><a class="nav-link" href="Comparison.html">Comparison</a></li>
+                      <li><a class="nav-link" href="data.html">Data</a></li>
+                      <li><a class="nav-link" href="index.html">Home</a></li>
+                
+                </ul>
+            </div>
+            </h1>
+            </nav>
+        </div>
+        
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+               <h2><p style="color:rgb(111, 194, 197);"><b>Summary:Latitude vs.X</b></p></h2>
+               <hr>
+               <img src="image/Fig1.jpg">
+                <p>The purpose of this project was to analyze how wather changes
+                    as you get closer to the equator.To accomplish this analysis,
+                    we first pulled data from the OpenWeatherMap API to assemble
+                    a dataset on over 500 cities.
+                <br>
+                    After assembling the dataset, we used Matplotlib to plot 
+                    various aspects of weather vs. latitude. 
+                    Factors we looked at included: temperature, cloudiness, wind speed , and humidity.
+                    This site provides the source data and visualizations created as part of the analysis, 
+                    as well as explanations and desciptions of any trends and correlations witnessed.
+
+                </p> 
+                <br>
+
+        </div>  
+        <div class="col-md-4">
+                <h3><p style="color:rgb(111, 194, 197);">visualizations</p></h3>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="maxtemp.html"><img src="image/Fig1.jpg" style="width:100%"></a></div>
+                    <dia class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img src="image/Fig2.jpg" style="width:100%"></a></dia>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudiness.html"><img src="image/Fig3.jpg" style="width:100%"></a></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="windspeed.html"><img src="image/Fig4.jpg" style="width:100%"></a></div>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr>
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+</body>
+</html>
